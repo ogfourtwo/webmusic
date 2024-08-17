@@ -1,0 +1,21 @@
+<metadata>
+<identifier>FrankOceanNostalgiaULTRAMixtapeManic</identifier>
+<mediatype>audio</mediatype>
+<collection>hiphopmixtapes</collection>
+<creator>Frank Ocean</creator>
+<date>2011</date>
+<description>Full mixtape by Frank Ocean</description>
+<scanner>Internet Archive HTML5 Uploader 1.6.3</scanner>
+<subject>mixtape</subject>
+<title>nostalgia, ULTRA.</title>
+<publicdate>2018-05-16 11:15:56</publicdate>
+<uploader>cpuguy19@gmail.com</uploader>
+<addeddate>2018-05-16 11:15:56</addeddate>
+<curation>
+[curator]validator@archive.org[/curator][date]20180516114622[/date][comment]checked for malware[/comment]
+</curation>
+<year>2011</year>
+<backup_location>ia906705_6</backup_location>
+<external_metadata_update>2019-03-13T17:17:06Z</external_metadata_update>
+<collection>folksoundomy</collection>
+</metadata>
