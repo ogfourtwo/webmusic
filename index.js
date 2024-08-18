@@ -83,6 +83,6 @@ function changesource(n){
             x.play();
             break;
         }
-        default:
+     default: break;
     }
 }
