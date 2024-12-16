@@ -58,6 +58,7 @@ function changesource(n){
             x.play();
             break;
         }
+
         case 10:{x.src = "./album/10 Swim Good.m4a";
             document.getElementById("playing").innerHTML = "now playing: Swim Good";
             x.play();
@@ -73,6 +74,7 @@ function changesource(n){
             x.play();
             break;
         }
+
         case 13:{x.src = "./album/13 Soul Calibur.m4a";
             document.getElementById("playing").innerHTML = "now playing: Soul Calibur";
             x.play();
