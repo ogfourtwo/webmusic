@@ -1,0 +1,76 @@
+:root{
+    --grad: linear-gradient(rgb(237, 93, 71), #f17739);
+}
+body{
+    padding-top: 2%;
+    background: black;
+}
+
+.main{
+    
+    border-radius: 30px;
+    display: flex;
+    margin: 0 auto;
+    width: 60%;
+    padding-bottom: 1%;
+}
+
+.red{
+    background: var(--grad);
+    width: 50%;
+    text-align: center;
+    border-radius: 30px;
+    padding-top: 6%;
+}
+
+.blue{
+    background: var(--grad);
+    width: 40%;
+    margin-left: 30px ;
+    align-content: center;
+    border-radius: 30px;
+}
+
+.cover{
+    max-width: 80%;
+    border-radius: 30px;
+}
+
+.audioplayer{
+    border-radius: 30px;
+}
+
+ul#list li {
+    cursor: pointer; 
+    padding: 13px;
+    margin-right: 30px;
+    list-style: none;
+    font-weight: bold;
+    font-size: large;
+}
+
+ul#list li:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+#playpause {
+    font-size: 50px;             
+    padding: 15px 30px;           
+    background-color: transparent;   
+    color: black;                
+    border: none;               
+    border-radius: 10px;          
+    cursor: pointer;              
+    transition: transform 0.2s, background-color 0.3s;  
+}
+
+#playpause:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;   
+    
+}
+
+#playpause:active {
+    transform: scale(1);          
+}
