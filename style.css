@@ -27,6 +27,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
     transition: transform 0.3s ease-in-out;
     margin: 10px; /* Adds space at the top */
+    color: black;
 }
 
 /* Red section inside card */
@@ -35,6 +36,7 @@ body {
     border-radius: 10px;
     padding: 8px;
     margin-top: 20px; /* Space added for better alignment */
+    color: black
 }
 
 /* Cover image */
@@ -55,8 +57,8 @@ body {
 /* Now playing text */
 #playing {
     font-size: 16px;
-    
     margin-bottom: 15px;
+    color: black
 }
 
 /* Audio player */
@@ -96,6 +98,7 @@ body {
     margin: 5px 0;
     border-radius: 5px;
     transition: background-color 0.3s ease;
+    color: black;
 }
 
 #list li:hover {
