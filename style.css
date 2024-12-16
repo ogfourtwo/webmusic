@@ -21,19 +21,19 @@ body {
 .main {
     background: linear-gradient(to bottom, #ff7e5f, #feb47b); /* Gradient effect */
     border-radius: 15px; /* Rounded corners */
-    padding: 20px;
+    padding: 4px;
     width: 350px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
     transition: transform 0.3s ease-in-out;
-    margin: 20px; /* Adds space at the top */
+    margin: 10px; /* Adds space at the top */
 }
 
 /* Red section inside card */
 .red {
     background-color: linear-gradient(to bottom, #ff7e5f, #feb47b);
     border-radius: 10px;
-    padding: 20px;
+    padding: 8px;
     margin-top: 20px; /* Space added for better alignment */
 }
 
