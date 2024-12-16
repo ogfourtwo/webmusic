@@ -3,43 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    
     <title>FO</title>
 </head>
 <body>
-    <div class="main">
-        <div class="red">
-            <img class="cover" src="./album/nu.jpg" alt="nostalgia ultra">
-            <h1 id="header">nostalgia, ULTRA.</h1>
-            <h2 id="playing">now playing: </h2>
-            <audio id="audioplayer" controls>
-                your browser dumb.
-            </audio>
-            <h1>
-            <button id="playpause">
-                Play/Pause
-            </button>
-            </h1>
-        </div>
-        <div class="blue">
-            <ul id="list">
-                <li onclick=changesource(1)>Street Fighter</li>
-                <li onclick=changesource(2)>Strawberry Swing</li>
-                <li onclick=changesource(3)>Novacane</li>
-                <li onclick=changesource(4)>We All Try</li>
-                <li onclick=changesource(5)>Bitches Talkin'</li>
-                <li onclick=changesource(6)>Songs For Women</li>
-                <li onclick=changesource(7)>Lovecrimes</li>
-                <li onclick=changesource(8)>Goldeneye</li>
-                <li onclick=changesource(9)>There Will Be Tears</li>
-                <li onclick=changesource(10)>Swim Good</li>
-                <li onclick=changesource(11)>Dust</li>
-                <li onclick=changesource(12)>American Wedding</li>
-                <li onclick=changesource(13)>Soul Calibur</li>
-                <li onclick=changesource(14)>Nature Feels</li>
-            </ul>
-        </div>
-    </div>
+    <h1 id="header">nostalgia, ULTRA.</h1>
+    <h2 id="playing">now playing: </h2>
+    <audio id="audioplayer" controls>
+        your browser dumb.
+    </audio>
+    <h1 onclick=playpause()>play/pause</h1>
+    <ul id="list">
+        <li onclick=changesource(1)>Street Fighter</li>
+        <li onclick=changesource(2)>Strawberry Swing</li>
+        <li onclick=changesource(3)>Novacane</li>
+        <li onclick=changesource(4)>We All Try</li>
+        <li onclick=changesource(5)>Bitches Talkin'</li>
+        <li onclick=changesource(6)>Songs For Women</li>
+        <li onclick=changesource(7)>Lovecrimes</li>
+        <li onclick=changesource(8)>Goldeneye</li>
+        <li onclick=changesource(9)>There Will Be Tears</li>
+        <li onclick=changesource(10)>Swim Good</li>
+        <li onclick=changesource(11)>Dust</li>
+        <li onclick=changesource(12)>American Wedding</li>
+        <li onclick=changesource(13)>Soul Calibur</li>
+        <li onclick=changesource(14)>Nature Feels</li>
+    </ul>
     <script src="./index.js"></script>
 </body>
 </html>

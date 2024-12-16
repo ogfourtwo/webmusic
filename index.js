@@ -1,15 +1,13 @@
 var x = document.getElementById("audioplayer");
-
+ 
 var i=0;
-changesource(1)
-
-function playpause() {
-    if (x.paused) {
-        x.play();
-        playpauseButton.innerText = "Pause"; 
-    } else {
+function playpause(){
+    i=i+1;
+    if(i%2 === 0){
         x.pause();
-        playpauseButton.innerText = "Play";
+    }
+    else{
+        x.play();
     }
 }
 
@@ -90,10 +88,3 @@ function changesource(n){
      default: break;
     }
 }
-
-document.getElementById("playpause").addEventListener("click", playpause);
-
-x.addEventListener('ended', function () {
-    i = (i % 14) + 1; 
-    changesource(i);   
-});
