@@ -1,6 +1,6 @@
 var x = document.getElementById("audioplayer");
 
-var i=0;
+var i=1;
 changesource(1)
 
 function playpause() {
